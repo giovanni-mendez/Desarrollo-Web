@@ -83,7 +83,7 @@ nav a:hover {
 
     .img {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -115,7 +115,7 @@ nav a:hover {
     text-decoration: none;
     color: white;
     background: #2c3e50;
-    padding: 1.5rem;
+    padding: .5rem;
     border-radius: 10px;
     font-weight: bold;
     text-align: center;
@@ -139,7 +139,7 @@ nav a:hover {
     }
     
     .boton-componente {
-        padding: 1rem;
+        padding: .5rem;
         min-height: 60px;
     }
 }
@@ -153,12 +153,7 @@ nav a:hover {
     margin-top: 20px;
 }
 
-/* Media queries */
-@media (max-width: 768px) {
-    .producto-card img {
-        height: 120px; /* Ajuste para pantallas más pequeñas */
-    }
-}
+
 
 .contenido-componente {
     max-width: 1200px;
@@ -184,8 +179,8 @@ nav a:hover {
 }
 
 .producto-card img {
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -204,6 +199,6 @@ nav a:hover {
     }
     
     .producto-card img {
-        height: 150px;
+        height: 250px;
     }
 }

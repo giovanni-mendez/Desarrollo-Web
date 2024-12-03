@@ -122,8 +122,8 @@ nav a:hover {
 }
 
 .producto-card img {
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -141,6 +141,11 @@ nav a:hover {
 @media (max-width: 992px) {
     .galeria-productos {
         grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
+    }
+
+    .producto-card img {
+        height: 300px;
+        width: 300px;
     }
 }
 
@@ -160,9 +165,8 @@ nav a:hover {
     }
     
     .producto-card img {
-        height: 350px;
-        width: 350px;
-        margin: auto;
+        height: 200px;
+        width: 200px;
     }
 }
 
@@ -173,8 +177,8 @@ nav a:hover {
     }
 
     .producto-card img {
-        height: 250px;
-        width: 250px;
+        height: 350px;
+        width: 350px;
     }
 
 }
